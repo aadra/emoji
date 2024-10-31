@@ -30,7 +30,7 @@ function App() {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Emoji Rangoli Generator</h2>
-      <br></br>
+      <h4>🪔Happy Diwali🪔</h4>
       <img src="/PNG_rw.png" alt="by Randomwalk" />
       <p> Use emoji keyboard on phone 📱.<br></br>
       Copy paste these emojis on 🧑‍💻.</p>
