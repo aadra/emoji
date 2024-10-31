@@ -53,7 +53,7 @@ function App() {
       🌉♨️🎠🎡🎢💈🎪🛎️🗿🚂🚅🚌<br></br>
       🎆🎇🧨🎂🍰🧁🥧
       </p>
-      <div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
         <input
           type="text"
           value={emoji1}
@@ -71,6 +71,7 @@ function App() {
           maxLength="2"
           margin-bottom= "10px"
         />
+        
         <br></br>
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
           {loading ? 'Generating...' : 'Generate Rangoli'}
