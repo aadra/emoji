@@ -30,7 +30,10 @@ function App() {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Emoji Rangoli Generator</h2>
-      <p>
+      <br></br>
+      <img src="assets/PNG_rw.png" alt="Randomwalk" />
+      <p> Use emoji keyboard on phone<br></br>
+      Copy paste these emojis.
       <br></br>
       Emojis<br></br>
 
@@ -42,8 +45,6 @@ function App() {
 
       🥳😎🤓🧐🤐🤥🙂‍🙂🙃😌😬😮<br></br>
 
-      😶😒🙄🤒🤕🤢🤮🤧🥵🥶🥴😵<br></br>
-
       😪😴😷😕😟🙁😮😯😲😳🤯🥱<br></br>
 
       😵🥺😦😧😨😰😥😢😭😱😖😣<br></br>
@@ -53,7 +54,6 @@ function App() {
       😻😼😽🙀🙈🙉🙊<br></br>
       Context<br></br>
       🏔️⛰️🌋🗻🏕️🏖️🏜️🏝️🏞️🏟️🏛️🏗️<br></br>
-      🧱🏘️🏚️🏠🏡🏢🏣🏤🏥🏦🏨🏩<br></br>
       🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕<br></br>
       🕍⛩️🕋⛲⛺🌁🌃🏙️🌄🌅🌆🌇<br></br>
       🌉♨️🎠🎡🎢💈🎪🛎️🗿🚂🚅🚌🚖<br></br>
@@ -64,14 +64,14 @@ function App() {
           type="text"
           value={emoji1}
           onChange={(e) => setEmoji1(e.target.value)}
-          placeholder="Enter first emoji"
+          placeholder="Select first emoji"
           maxLength="2"
         />
         <input
           type="text"
           value={emoji2}
           onChange={(e) => setEmoji2(e.target.value)}
-          placeholder="Enter second emoji"
+          placeholder="Select second emoji"
           maxLength="2"
         />
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
