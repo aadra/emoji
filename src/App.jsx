@@ -53,7 +53,7 @@ function App() {
       🌉♨️🎠🎡🎢💈🎪🛎️🗿🚂🚅🚌<br></br>
       🎆🎇🧨🎂🍰🧁🥧
       </p>
-      <div style="display: flex; flex-direction: column; gap: 20px;">
+      <div>
         <input
           type="text"
           value={emoji1}
