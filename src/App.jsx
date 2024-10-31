@@ -33,11 +33,8 @@ function App() {
       <h4>🪔Happy Diwali🪔</h4>
       <img src="/PNG_rw.png" alt="by Randomwalk" />
       <p> Use emoji keyboard on phone 📱.<br></br>
-      Copy paste these emojis on 🧑‍💻.</p>
+      Copy paste these emojis on laptop 🧑‍💻.</p>
       <p>
-      <br></br>
-      Emojis<br></br>
-
       😆😍😃😄😁😆😅🤣😂🙂😉😊<br></br>
 
       😇🥰🤩😘😗😚😙😏😋😛😜😶<br></br>
@@ -51,8 +48,7 @@ function App() {
       😵🥺😦😧😨😰😥😢😭😱😖😣<br></br>
 
       😞😓😩😫😤😡😠🤬👿😈👿💀<br></br>
-      🤡👹👺👻👽👾🤖😺😸😹😿😾<br></br>
-      😻😼😽🙀🙈🙉🙊<br></br>
+      🤡👹👺👻👽👾🤖😻😼🙈🙉🙊<br></br>
       Context<br></br>
       🏔️⛰️🌋🗻🏕️🏖️🏜️🏝️🏞️🏟️🏛️🏗️<br></br>
       🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕<br></br>
@@ -67,6 +63,7 @@ function App() {
           onChange={(e) => setEmoji1(e.target.value)}
           placeholder="Select first emoji"
           maxLength="2"
+          size={30}
         />
         <input
           type="text"
@@ -74,7 +71,9 @@ function App() {
           onChange={(e) => setEmoji2(e.target.value)}
           placeholder="Select second emoji"
           maxLength="2"
+          size={30}
         />
+        <br></br>
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
           {loading ? 'Generating...' : 'Generate Rangoli'}
         </button>
