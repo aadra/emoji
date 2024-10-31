@@ -30,6 +30,11 @@ body {
   min-height: 100vh;
 }
 
+input[type="text"] {
+  height: 50px;
+  padding: 10px; /* Adds extra space inside the input box */
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
