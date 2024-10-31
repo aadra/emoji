@@ -63,7 +63,7 @@ function App() {
           onChange={(e) => setEmoji1(e.target.value)}
           placeholder="Select first emoji"
           maxLength="2"
-          size={30}
+          style="height: 30px;"
         />
         <input
           type="text"
@@ -71,7 +71,7 @@ function App() {
           onChange={(e) => setEmoji2(e.target.value)}
           placeholder="Select second emoji"
           maxLength="2"
-          size={30}
+          style="height: 30px;"
         />
         <br></br>
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
