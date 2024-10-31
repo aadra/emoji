@@ -62,6 +62,7 @@ function App() {
           maxLength="2"
         
         />
+        <br></br>
         <input
           type="text"
           value={emoji2}
