@@ -54,13 +54,14 @@ function App() {
       🎆🎇🧨🎂🍰🧁🥧
       </p>
       <div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
         <input
           type="text"
           value={emoji1}
           onChange={(e) => setEmoji1(e.target.value)}
           placeholder="Select first emoji"
           maxLength="2"
-          margin-bottom= "10px"
+          margin-bottom= "10px;"
         />
       
         <input
@@ -69,9 +70,9 @@ function App() {
           onChange={(e) => setEmoji2(e.target.value)}
           placeholder="Select second emoji"
           maxLength="2"
-          margin-bottom= "10px"
+          margin-bottom= "10px;"
         />
-        
+        </div>
         <br></br>
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
           {loading ? 'Generating...' : 'Generate Rangoli'}
