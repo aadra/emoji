@@ -60,16 +60,16 @@ function App() {
           onChange={(e) => setEmoji1(e.target.value)}
           placeholder="Select first emoji"
           maxLength="2"
-        
+          margin-bottom= "10px"
         />
-        <br></br>
+      
         <input
           type="text"
           value={emoji2}
           onChange={(e) => setEmoji2(e.target.value)}
           placeholder="Select second emoji"
           maxLength="2"
-          
+          margin-bottom= "10px"
         />
         <br></br>
         <button onClick={generateRangoli} disabled={loading || !emoji1 || !emoji2}>
