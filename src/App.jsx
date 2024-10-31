@@ -32,9 +32,8 @@ function App() {
       <h2>Emoji Rangoli Generator</h2>
       <br></br>
       <img src="/PNG_rw.png" alt="by Randomwalk" />
-      <p> Use emoji keyboard on phone<br></br>
-      Copy paste these emojis.</p>
-      <br></br>
+      <p> Use emoji keyboard on phone 📱.<br></br>
+      Copy paste these emojis on 🧑‍💻.</p>
       <p>
       <br></br>
       Emojis<br></br>
