@@ -61,7 +61,7 @@ function App() {
           onChange={(e) => setEmoji1(e.target.value)}
           placeholder="Select first emoji"
           maxLength="2"
-          margin-bottom= "10px;"
+          
         />
       
         <input
@@ -70,7 +70,7 @@ function App() {
           onChange={(e) => setEmoji2(e.target.value)}
           placeholder="Select second emoji"
           maxLength="2"
-          margin-bottom= "10px;"
+
         />
       
         <br></br>
