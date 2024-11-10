@@ -30,35 +30,24 @@ function App() {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <h2>Emoji Rangoli Generator</h2>
-      <h4>🪔Happy Diwali🪔</h4>
+      <h4>Season's Greetings</h4>
       <img src="/PNG_rw.png" alt="by Randomwalk" />
       <p> Use emoji keyboard on phone 📱.<br></br>
       Copy paste these emojis on laptop 🧑‍💻.</p>
       <p>
-                              😍<br></br>                                    
-                            😍😍😍<br></br>                                     
-                           😍😃😃😍<br></br>                                 
-                          😍😍😃😃😃<br></br>                                                                 
-                        😍😃😃😃😃😃<br></br>                   
-                       😍😍😃😃😃😃😃<br></br>                              
-                        😍😍😃😃😃😍<br></br>                                 
-                        😍😍😍😃😍😍<br></br> 
-                         😨😨😍😍😍<br></br> 
-      										😍😍😍😍<br></br> 
-											     😍😍😍<br></br> 
-                            😍😍<br></br> 
-					      🌃🌃🌃🌃🌃🌃😍🌃🌃🌃🌃🌃🌃🌃<br></br> 
-						   🎆🎆🎆🎆🎆🎆🎆🎇🎆🎆🎆🎆🎆🎆🌃<br></br> 
-						   🎆🎆🎆🎆🎆🎇🎇🎇🎇🎇🎆🎆🎆🎆🎆<br></br> 
-						   🎆🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎆🎆<br></br> 
-							 🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎆<br></br> 
-						    🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇<br></br> 
-							    🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇🎇<br></br> 
-							       🎇🎇🎇🎇🎇🎇🎇🎇🎇<br></br> 
-							
-										
-										
-      </p>
+                       😍😃😃😍      😍😃😃😍<br></br>                                
+                     😍😍😃😃😃.   😍😍😃😃😃😍<br></br>                                 
+                      😍😍😃😃😃😃😍😍😃😃😃😃<br></br>                                 
+                      😍😃😃😃😃😃😍😍😃😃😃😃<br></br>                  
+                      😍😍😃😃😃😃😃😍😍😃😃😃<br></br>                             
+                       😍😍😃😃😃😍😍😍😃😃😃<br></br>                                
+                        😍😍😃😍😍😍😍😃😃😃<br></br>
+                         😨😍😍😍😍😍😃😃😃<br></br>
+      									  😍😍😍😍😍😍😃😃<br></br>
+											     😍😍😍😍😍😃😃<br></br>
+                              😍😍😃😃<br></br>
+								                 😃<br></br>      
+</p>
       <div>
     
         <input
